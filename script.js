@@ -6,8 +6,9 @@ var width = $(window).width(),
 	height = $(window).height();
 
 //SETUP
-$('#rule').css('left', width/2-200 + 'px')
-					.css('top', height/2-100 + 'px');
+$('#rule').css({
+	'left': width/2 + 'px',
+	'top': height/2-100 + 'px'});
 
 //CLICK
 $('#content').click(function(e){ })
